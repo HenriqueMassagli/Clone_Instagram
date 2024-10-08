@@ -1,0 +1,24 @@
+.Stories{
+    display: flex;
+    flex-direction: row;
+ }
+ .Story {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 40px;
+     width: 40px;
+     padding: 2px;
+     border-radius: 50%;
+     background-color: #fff;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin: 1vw 1vw 20px 1vw;
+     transition: all 0.3s;
+ }
+  
+ .Story img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     margin-bottom: 5px;
+ }

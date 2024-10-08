@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #CCC;
+  display: flex;
+  flex-direction: row;
+}
+
+.Stories{
+  background: #fff;
+  border: 1px solid #efefef;
+  width: 40vw;
+  height: 80px;
+}
+
+.Postagens{
+  background: #fefefe;
+  width: 40vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ConteudoLateral {
+  display: flex;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  width: 30vw;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  background-color: #ccc (255, 255, 255);
+}
+
+.MenuLateral {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin-top: 20px;
+  list-style: none;
+}
