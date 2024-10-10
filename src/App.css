@@ -1,22 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
-  background: #CCC;
+  background: #ccc;
   display: flex;
   flex-direction: row;
 }
 
-.Stories{
-  background: #fff;
-  border: 1px solid #efefef;
+.Stories {
+  background: #afa6a658;
+  border: 1px solid #ffffff;
   width: 40vw;
   height: 80px;
 }
 
-.Postagens{
+.Postagens {
   background: #fefefe;
   width: 40vw;
   min-height: 80vh;
@@ -28,21 +29,30 @@
   display: flex;
   color: rgb(255, 255, 255);
   flex-direction: column;
-  width: 30vw;
+  width: 15vw;
   height: 100vh;
   background-color: #000000;
   padding: 20px;
+  border-right: 2px solid #ffffff;
 }
 
 .logo {
-  width: 100px;
+  width: 105px;
   background-color: #ccc (255, 255, 255);
 }
 
 .MenuLateral {
   display: flex;
   list-style: none;
+  margin: auto;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 40px;
   list-style: none;
+  gap: 30px;
+}
+
+.ConteudoPrincipal {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.708);
+  border-left: green;
 }

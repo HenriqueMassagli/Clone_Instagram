@@ -3,7 +3,8 @@ import ConteudoLateral from "./componentes/ConteudoLateral"; // Importando o com
 import ConteudoPrincipal from "./componentes/ConteudoPrincipal";
 
 // Geralmente deixamos componentes em letras maiúsculas para diferenciar de tags HTML, assim como o className.
-import ListItem from "./componentes/ListItem"; // Importando o componente ListItem de outro arquivo
+
+// Importando o componente ListItem de outro arquivo
 
 // Importando o arquivo de estilos para esse componente
 import "./App.css";
