@@ -5,39 +5,34 @@
 }
 
 .App {
-  background: #ccc;
+  background: #5a0a0a;
   display: flex;
+  width: auto;
   flex-direction: row;
 }
 
 .Stories {
-  background: #afa6a658;
-  border: 1px solid #ffffff;
-  width: 40vw;
+  background: #000000;
+  display: center;
+  font-size: 15px;
   height: 80px;
 }
 
-.Postagens {
-  background: #fefefe;
-  width: 40vw;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .ConteudoLateral {
-  display: flex;
+  display: block;
   color: rgb(255, 255, 255);
   flex-direction: column;
-  width: 15vw;
-  height: 100vh;
+  width: 20vw;
+  height: auto;
+  margin-right: -180px;
   background-color: #000000;
   padding: 20px;
-  border-right: 2px solid #ffffff;
+  border-right: 2px solid #6262626e;
 }
 
 .logo {
   width: 105px;
+  margin-top: 20px;
   background-color: #ccc (255, 255, 255);
 }
 
@@ -52,7 +47,12 @@
 }
 
 .ConteudoPrincipal {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.708);
-  border-left: green;
+  background-color: black;
+  margin-left: 180px;
+  margin-right: 180px;
+  width: 100%;
+}
+
+.Nome-do-usuario {
+  color: #ffffffc3;
 }

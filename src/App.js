@@ -8,6 +8,7 @@ import ConteudoPrincipal from "./componentes/ConteudoPrincipal";
 
 // Importando o arquivo de estilos para esse componente
 import "./App.css";
+import Stories from "./componentes/Stories";
 
 // Função que retorna o componente App.
 // Essa função é exportada para ser usada em outros arquivos

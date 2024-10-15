@@ -4,15 +4,14 @@ import ListItem from "./ListItem";
 // Sempre que for utilizar um ícone, tem que importar ele aqui.
 import { MdHomeFilled } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
-import { GoPaperAirplane } from "react-icons/go";
 import { IoIosSearch } from "react-icons/io";
 import { MdOutlineAddBox } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { TbMessageCircle } from "react-icons/tb";
 import { PiHeart } from "react-icons/pi";
-import { IoPaperPlaneOutline } from "react-icons/io5";
 import { BiMoviePlay } from "react-icons/bi";
 import { CgDetailsMore } from "react-icons/cg";
+import { MdAlternateEmail } from "react-icons/md";
 
 export default function ConteudoLateral() {
   return (
@@ -23,10 +22,17 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontWeight: "bold",
+                  fontSize: "15px",
+                }}
               >
                 {<MdHomeFilled style={{ color: "White", fontSize: "30px" }} />}
-                Home
+                Página inicial
               </span>
             }
           />
@@ -34,10 +40,16 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 <IoIosSearch style={{ color: "white", fontSize: "30px" }} />
-                Pesquisar
+                Pesquisa
               </span>
             }
           />
@@ -45,7 +57,13 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 <MdOutlineExplore
                   style={{ color: "White", fontSize: "30px" }}
@@ -58,7 +76,13 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 <BiMoviePlay style={{ color: "White", fontSize: "30px" }} />
                 Reels
@@ -69,7 +93,13 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 <TbMessageCircle style={{ color: "White", fontSize: "30px" }} />
                 Mensagens
@@ -79,7 +109,13 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 {<PiHeart style={{ color: "White", fontSize: "30px" }} />}
                 Notificações
@@ -90,7 +126,13 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 {
                   <MdOutlineAddBox
@@ -105,10 +147,16 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 {<CgProfile style={{ color: "White", fontSize: "30px" }} />}
-                Profile
+                Perfil
               </span>
             }
           />
@@ -116,7 +164,33 @@ export default function ConteudoLateral() {
           <ListItem
             text={
               <span
-                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                  marginTop: "28px",
+                }}
+              >
+                <MdAlternateEmail
+                  style={{ color: "white", fontSize: "30px" }}
+                />
+                Threads
+              </span>
+            }
+          />
+
+          <ListItem
+            text={
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "15px",
+                  fontFamily: "sans-serif",
+                  fontSize: "15px",
+                }}
               >
                 {<CgDetailsMore style={{ color: "White", fontSize: "30px" }} />}
                 Mais
