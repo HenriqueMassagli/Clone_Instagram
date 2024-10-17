@@ -29,7 +29,7 @@ export default function Post() {
       <div className="Post-salvar">
         {<CiSaveDown2 style={{ color: "White", fontSize: "25px" }} />}
       </div>
-      <div className="Post-nome">Cachorro</div> 
+      <div className="Post-nome">Cachorro</div>
       <div className="Post-content">
         Cristiano Ronaldo revela qual é o maior time do mundo
       </div>
