@@ -2,6 +2,8 @@ import ConteudoLateral from "./componentes/ConteudoLateral"; // Importando o com
 
 import ConteudoPrincipal from "./componentes/ConteudoPrincipal";
 
+import ConteudoDireito from "./componentes/ConteudoDireito";
+
 // Geralmente deixamos componentes em letras maiúsculas para diferenciar de tags HTML, assim como o className.
 
 // Importando o componente ListItem de outro arquivo
@@ -18,7 +20,7 @@ export default function App() {
     <div className="App">
       <ConteudoLateral />
       <ConteudoPrincipal />
-      
+      <ConteudoDireito />
     </div>
   );
 }

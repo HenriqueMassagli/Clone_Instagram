@@ -1,7 +1,5 @@
 import logo from "../imagens/instagram_logo.png";
 import ListItem from "./ListItem";
-// Importações de icones
-// Sempre que for utilizar um ícone, tem que importar ele aqui.
 import { MdHomeFilled } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";

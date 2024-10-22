@@ -4,7 +4,7 @@
   width: 40%;
   height: auto;
   margin-left: 241px;
-  margin-top: 50px;
+  margin-top: 40px;
   display: flexbox;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
@@ -23,14 +23,21 @@
 }
 
 .Post-content {
-  margin-left: 20px;
-  padding: 10px;
+  margin-left: 5px; /* Ajuste a distância entre o nome e o texto */
+  padding: 0px;
   color: #ffffff;
+  justify-content: left;
+  align-items: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  float: none; /* Remova o float */
+  display: inline-block; /* Deixe o conteúdo na mesma linha */
 }
 
 .Post-nome {
   color: #ffffff;
-  float: left;
+  justify-content: left;
+  margin-left: auto;
   margin-top: 7px;
 }
 
@@ -41,15 +48,56 @@
 
 .Post-comentario {
   float: left;
+  margin-left: 9px;
   margin-top: 7px;
 }
 
 .Post-compartilhar {
   float: left;
+  margin-left: 9px;
   margin-top: 7px;
 }
 
 .Post-salvar {
   float: left;
+  margin-left: 322px;
   margin-top: 7px;
+}
+
+.Post-avatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Post-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Post-nome {
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.Post-more {
+  margin-left: 245px;
+  color: #ffffffc3;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.Post-nome_rodape {
+  justify-content: left;
+  margin-left: auto;
+  margin-top: 9px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block; /* Deixe o conteúdo na mesma linha */
 }
