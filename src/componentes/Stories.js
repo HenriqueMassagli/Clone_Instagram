@@ -15,7 +15,7 @@ export default function Stories() {
         foto="https://pbs.twimg.com/profile_images/1484473740209659906/NlQOxAt3_400x400.jpg"
       />
       <Story
-        nome="SPFC"
+        nome="Spfc"
         foto="https://yt3.googleusercontent.com/C8rCyrTuhCFBj7U0Od4-4ISbgp5i7OMfAudqi2h7vgcFOy70J6pSao6qG0YO6p7LpdTqlqbceQ=s900-c-k-c0x00ffffff-no-rj"
       />
       <Story
@@ -40,7 +40,7 @@ export default function Stories() {
       />
 
       <div className="Next">
-        {<FaChevronCircleRight style={{ color: "White", fontSize: "22px" }} />}
+        {<FaChevronCircleRight style={{ color: "White", fontSize: "21px" }} />}
       </div>
     </div>
   );

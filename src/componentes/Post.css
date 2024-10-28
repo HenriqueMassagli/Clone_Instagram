@@ -1,10 +1,10 @@
 .Postagens {
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
   height: auto;
   margin-left: 241px;
-  margin-top: 40px;
+  margin-top: 50px;
   display: flexbox;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
@@ -23,15 +23,15 @@
 }
 
 .Post-content {
-  margin-left: 5px; /* Ajuste a distância entre o nome e o texto */
+  margin-left: 5px;
   padding: 0px;
   color: #ffffff;
   justify-content: left;
   align-items: center;
   font-size: 13px;
   font-family: sans-serif;
-  float: none; /* Remova o float */
-  display: inline-block; /* Deixe o conteúdo na mesma linha */
+  float: none;
+  display: inline-block;
 }
 
 .Post-nome {
@@ -60,7 +60,7 @@
 
 .Post-salvar {
   float: left;
-  margin-left: 322px;
+  margin-left: 320px;
   margin-top: 7px;
 }
 
@@ -82,9 +82,11 @@
   font-family: sans-serif;
   font-weight: bold;
   font-size: 14px;
+  display: flex;
+  gap: 5px;
 }
 .Post-more {
-  margin-left: 245px;
+  margin-left: 300px;
   color: #ffffffc3;
   align-items: center;
   justify-content: center;
@@ -99,5 +101,102 @@
   font-family: sans-serif;
   font-weight: bold;
   font-size: 13px;
-  display: inline-block; /* Deixe o conteúdo na mesma linha */
+  display: inline-block;
+}
+
+.Post2 img {
+  width: 100%;
+  height: auto;
+  max-width: 438px;
+  margin-top: 0;
+  align-items: center;
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid #cacaca5e;
+}
+
+.Post-content2 {
+  margin-left: 5px;
+  padding: 0px;
+  color: #ffffff;
+  justify-content: left;
+  align-items: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  float: none;
+  display: inline-block;
+}
+
+.Post-nome2 {
+  color: #ffffff;
+  justify-content: left;
+  margin-left: auto;
+  margin-top: 7px;
+}
+
+.Post-like2 {
+  float: left;
+  margin-top: 7px;
+}
+
+.Post-comentario2 {
+  float: left;
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
+.Post-compartilhar2 {
+  float: left;
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
+.Post-salvar2 {
+  float: left;
+  margin-left: 320px;
+  margin-top: 7px;
+}
+
+.Post-avatar2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Post-avatar2 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Post-nome2 {
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  gap: 5px;
+}
+.Post-more2 {
+  margin-left: 295px;
+  color: #ffffffc3;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.Post-nome_rodape2 {
+  justify-content: left;
+  margin-left: auto;
+  margin-top: 9px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.Post-cabecalho2 {
+  margin-top: 35px;
 }

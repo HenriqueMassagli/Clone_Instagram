@@ -200,15 +200,3 @@ export default function ConteudoLateral() {
     </div>
   );
 }
-
-/* icones baixados por: https://www.npmjs.com/package/react-icons 
-            utilizando comando: npm install react-icons --save
-            esse comando permite baixar o react-icons e salvar no projeto
-            e para utilizar é só importar o ícone desejado e utilizar como componente.
-
-            para remover o pacote é só utilizar o comando: npm uninstall react-icons
-          */
-
-/* Utilizando o ícone do react-icons.
-           Pra usarmos temos que utilizar a estrutura:
-            {<NomeDoIcone />} e ter o import dele la em cima*/

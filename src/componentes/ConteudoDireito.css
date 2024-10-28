@@ -1,6 +1,75 @@
+.ConteudoDireito {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.Perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 .Perfil img {
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  margin-right: 230px;
+  margin-right: 10px;
+}
+
+.Perfil-nome {
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  flex: 1;
+}
+
+.seguirBtn {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #3288d8;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.seguirBtn:hover {
+  background-color: #3181c1;
+}
+
+.MudarBtn {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #3b3f42be;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.MudarBtn:hover {
+  background-color: #3181c1;
+}
+
+.PerfilUsuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
 }
